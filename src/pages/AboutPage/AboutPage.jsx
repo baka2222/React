@@ -1,12 +1,12 @@
 import React from 'react';
 import Description from "../../components/Description/Description";
 
-function MainPage() {
+function AboutPage(props) {
     return (
         <div>
-            <Description title={"Title 2"} description={"description 2"} />
+            <Description title={"Title"} description={"description"} />
         </div>
     );
 }
 
-export default MainPage;
+export default AboutPage;
